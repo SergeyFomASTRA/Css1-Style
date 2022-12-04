@@ -448,7 +448,7 @@ img {
 .about__picture{
 }
 
-.about__us{
+.about__container > .about__us{
     position: absolute;
     background: linear-gradient(71.43deg, #8F00FF 0%, #148CFF 100%), #212121;
     top: 97px;
@@ -540,5 +540,5 @@ img {
 }
 
 .wrapper__main--background{
-    background: url(/img/nbgB77C1HAg\ 1.png) center top no-repeat, url(/img/56278948-888x544\ 2.png) center bottom -100px no-repeat;
+    background: url(../../img/nbgB77C1HAg\ 1.png) center top no-repeat, url(../../img/56278948-888x544\ 2.png) center bottom -100px no-repeat;
 }
