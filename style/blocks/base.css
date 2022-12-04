@@ -346,7 +346,7 @@ img {
 }
 
 .news__item:first-child{
-    background: url(/img/kto_gde_kviz__moskva_1_qg_large\ 1.png) no-repeat;
+    background: url(/Css1-Style/img/kto_gde_kviz__moskva_1_qg_large\ 1.png) no-repeat;
     margin-right: 22px;
 }
 
@@ -540,5 +540,5 @@ img {
 }
 
 .wrapper__main--background{
-    background: url(../../img/nbgB77C1HAg\ 1.png) center top no-repeat, url(../../img/56278948-888x544\ 2.png) center bottom -100px no-repeat;
+    background: url(/Css1-Style/img/nbgB77C1HAg\ 1.png) center top no-repeat, url(/Css1-Style/img/56278948-888x544\ 2.png) center bottom -100px no-repeat;
 }
