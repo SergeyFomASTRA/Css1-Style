@@ -219,7 +219,7 @@ img {
 
 .title--new::after{ 
     content: "";
-    background: url(/img/store-new-badges\ 1.png) no-repeat;
+    background: url(../../img/store-new-badges\ 1.png) no-repeat;
     margin-left: 65px;
     width: 45px;
     height: 45px;
@@ -347,13 +347,13 @@ img {
 }
 
 .news__item:first-child{
-    background: url(/img/new_year_kviz.png) no-repeat;
+    background: url(../../img/new_year_kviz.png) no-repeat;
     margin-right: 22px;
 }
 
 .news__item:last-child{
 
-    background: url(/img/marte_game.png) no-repeat;
+    background: url(../../img/marte_game.png) no-repeat;
 }
 
 .news__item-content{
