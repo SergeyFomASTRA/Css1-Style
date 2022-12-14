@@ -1,0 +1,252 @@
+
+
+.top__line{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 414px;
+    margin-bottom: 192px;
+    margin: 0 auto;
+	width: 100%;
+	height: 100%;
+	width: 1141px;
+}
+
+.page-title{
+    position: relative;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 98px;
+    margin-bottom: 34px;
+}
+
+
+.breadcrumbs__list{
+    display: inline-flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.breadcrumbs__item{
+    display: flex;
+    align-items: center;
+    color: #9a9a9a;
+}
+
+.breadcrumbs__item::after{
+    text-decoration: none;
+    content: "/";
+    color: #9a9a9a;
+}
+
+.breadcrumbs__item:last-child::after{
+    display: none;
+}
+
+.maintainer-game{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: #FFF;
+}
+
+.breadcrumbs__link{
+    position: relative;
+    display: flex;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-decoration: underline;
+}
+
+.breadcrumbs__link--active{
+    font-weight: 700;
+}
+
+.game__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 833px;
+    background:#FFF;
+    position: relative;
+}
+
+.game__list{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-top: 97px;
+    width: 1141px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 333px;
+    width: 625px;
+}
+
+.game__title{
+    margin-top: 12px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+}
+
+.game__text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    width: 625px;
+    margin-bottom: 4px;
+}
+
+.game__item{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    color:black;
+}
+
+.game__item:first{
+    flex: 1;
+}
+
+.game__item:last-child{
+    flex:1;
+    margin-top: 50px;
+}
+
+.image__game{
+    position: relative;
+    height: 333px;
+    width: 460px;
+}
+
+.content > img{
+    width: 100%;
+    height: 30%;
+}
+
+.content > .button--light{
+    margin-bottom: 16px;
+    position: relative;
+    color: black;
+    background-color: #FFF;
+}
+
+.content > .button--text{
+    position: relative;
+    color: white;
+    margin-bottom: 21px;
+}
+
+.game__container > .paginator{
+    position: relative;
+    margin-top: 0;
+    color:black;
+    margin-top: 61px;
+}
+
+.partners__container{
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 175px;
+    margin-bottom: 90px;
+}
+
+.partners__title{
+    color: black;
+    margin-bottom: 65px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 65px;
+}
+
+.partners-image__list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.partners-image__link{
+    text-decoration: none;
+    display: flex;
+    width: 252px;
+    height: 105px;
+    align-items: center;
+    justify-content: center;
+}
+
+.partners-image__item{
+    position: relative;
+    display: flex;
+}
+
+.partners-image__item:nth-child(1) > .partners-image__link{
+    width: 226px;
+}
+
+.partners-image__item:nth-child(2){
+    margin-left: 50px;
+}
+
+.partners-image__item:nth-child(3){
+    margin-left: 30px;
+}
+
+.partners-image__item:nth-child(4){
+    margin-left: 79px;
+}
+
+.partners-image__item:nth-child(n+5){
+    margin-top: 20px;
+}
+
+.partners-image__item:nth-child(5) > .partners-image__link{
+    margin-left: 0;
+    width: 205px;
+}
+
+.partners-image__item:nth-child(6) > .partners-image__link{
+    margin-left: 70px;
+    width: 179px;
+}
+
+.partners-image__item:nth-child(7) > .partners-image__link{
+    margin-left: 140px;
+    width: 185px;
+}
+
+.partners-image__item:nth-child(8) > .partners-image__link{
+    margin-left: 109px;
+    width: 252px;
+}
+
+.footer__game{
+    margin-top: 0;
+}
+
+.footer__game > .footer__container{
+    height: 115px;
+}
+
+.footer__game > .footer__container > .footer__contact{
+    margin-bottom: 30px;
+}
+
+.footer__game > .footer__container > .footer__contact > .contacts__phone{
+    line-height: 28px;
+}
+
