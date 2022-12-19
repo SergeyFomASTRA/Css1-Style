@@ -66,6 +66,7 @@ img {
 
 .wrapper__content {
     margin: 0 auto;
+    position: relative;
 }
 
 .container {
@@ -137,7 +138,6 @@ img {
 
 .menu__item{
     display: flex;
-    align-items: center;
     justify-content: space-between;
     flex-direction: row;
 }
@@ -230,7 +230,7 @@ img {
 }
 
 .title{
-    display: inline-flex;
+    display: flex;
     justify-content: flex-start;
     font-style: normal;
     font-weight: 700;
@@ -240,15 +240,14 @@ img {
 } 
 
 .title--new::after{ 
+    display: flex;
     content: "";
     background: url(./../../img/store-new-badges\ 1.png) no-repeat;
-    margin-left: 65px;
+    margin-left: 10px;
+    margin-top: 5px;
     width: 45px;
     height: 45px;
-    position: absolute;
-    top: 50%;
-    left: 25%;
-    transform: translate(-50%, -50%);
+    position: relative;
 }
 
 .offers__list{
@@ -590,7 +589,7 @@ img {
 }
 
 .footer__contact > .contacts__phone{
-    display: flex;
+    display: inline-block;
     margin-top: 0;
 }
 
