@@ -66,7 +66,6 @@ img {
 
 .wrapper__content {
     margin: 0 auto;
-    position: relative;
 }
 
 .container {
@@ -111,10 +110,6 @@ img {
     justify-content: flex-end;
 }
 
-.menu__item{
-    display: inline-flex;
-}
-
 .logo{
     display: flex;
     vertical-align: top;
@@ -135,18 +130,16 @@ img {
 
 .menu__list{
     height: inherit;
-}
-
-.menu__item:first-child{
-    position: relative;
-    margin-left: 0;
-    vertical-align: middle;
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
 }
 
 .menu__item{
-    position: relative;
-    margin-left: 62px;
-    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
 }
 
 .menu__link{
@@ -195,7 +188,6 @@ img {
 
 .hello__title{
     display: flex;
-    position: relative;
     font-style: normal;
     font-weight: 700;
     font-size: 60px;
@@ -205,8 +197,7 @@ img {
 
 .hello__subtitle{
     display: flex;
-    position: relative;
-    left: 4px;
+    margin-left: 4px;
     font-style: normal;
     font-weight: 400;
     font-size: 21px;
@@ -241,7 +232,6 @@ img {
 .title{
     display: inline-flex;
     justify-content: flex-start;
-    position: relative;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -414,7 +404,6 @@ img {
 .news__item-date{
     display: flex;
     align-items: center;
-    position: relative;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -422,7 +411,6 @@ img {
 }
 
 .news__title{
-    position: relative;
     margin-top: 10px;
     margin-left: 2px;
     margin-bottom: 5px;
@@ -439,10 +427,10 @@ img {
     font-weight: 400;
     font-size: 16px;
     line-height: 21px;
+    width: 95%;
 }
 
 .paginator{
-    position: relative;
     margin-top: 53px;
     display: flex;
     width: 1141px;
@@ -456,7 +444,6 @@ img {
 
 .paginator__display{
     align-items: center;
-    position: relative;
     margin-right: 26px;
     font-style: normal;
     font-weight: 400;
@@ -498,7 +485,7 @@ img {
 
 .about__container{
     position: relative;
-    margin-top: 143px;
+    margin-top: 145px;
 }
 
 .about__container > .about__us{
@@ -511,12 +498,11 @@ img {
     left: 353px;
     width: 785;
     height: 459px;
-    padding: 72px 204px 66px 78px;
+    padding: 72px 204px 68px 78px;
 }
 
 .about__us-text{
     margin-left: 3px;
-    position: relative;
     width: 502px;
     font-style: normal;
     font-weight: 400;
@@ -525,7 +511,9 @@ img {
 }
 
 .button--white{
-    width: 172px;
+    margin-left: 3px;
+    width: 169px;
+    padding: 18px 34px 18px 39px;
     border: 1px solid white;
 }
 
@@ -561,19 +549,16 @@ img {
 
 .footer__container > .logo{
     display: flex;
-    position: relative;
 }
 
 .footer__container > .menu{
     display: flex;
     align-items: center;
-    position: relative;
 }
 
 .social{
     display: flex;
     align-items: center;
-    position: relative;
     width: 175px;
 }
 
@@ -581,7 +566,6 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: relative;
     width: inherit;
 }
 
@@ -595,7 +579,6 @@ img {
     margin-top: 10px;
     display: flex;
     flex-direction: column;
-    position: relative;
 }
 
 .footer__contact-text{
@@ -607,7 +590,7 @@ img {
 }
 
 .footer__contact > .contacts__phone{
-    display: inline-block;
+    display: flex;
     margin-top: 0;
 }
 
