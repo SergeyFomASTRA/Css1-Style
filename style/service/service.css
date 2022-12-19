@@ -14,7 +14,6 @@
 }
 
 .page-title{
-    position: relative;
     font-style: normal;
     font-weight: 700;
     font-size: 72px;
@@ -24,10 +23,11 @@
 
 
 .breadcrumbs__list{
-    display: inline-flex;
+    display: flex;
     flex-wrap: nowrap;
     align-items: center;
     margin-bottom: 25px;
+    margin-left: 2px;
 }
 
 .breadcrumbs__item{
@@ -49,12 +49,10 @@
 .maintainer-game{
     display: flex;
     flex-direction: column;
-    position: relative;
     background-color: #FFF;
 }
 
 .breadcrumbs__link{
-    position: relative;
     display: flex;
     font-style: normal;
     font-weight: 400;
@@ -77,11 +75,10 @@
 }
 
 .game__list{
-    position: relative;
     display: flex;
     flex-direction: column;
     margin-top: 97px;
-    width: 1141px;
+    width: 100%;
 }
 
 .content{
@@ -110,7 +107,6 @@
 }
 
 .game__item{
-    position: relative;
     display: flex;
     justify-content: space-between;
     color:black;
@@ -126,7 +122,6 @@
 }
 
 .image__game{
-    position: relative;
     height: 333px;
     width: 460px;
 }
@@ -137,20 +132,17 @@
 }
 
 .content > .button--light{
-    margin-bottom: 16px;
-    position: relative;
+    margin-bottom: 18px;
     color: black;
     background-color: #FFF;
 }
 
 .content > .button--text{
-    position: relative;
     color: white;
     margin-bottom: 21px;
 }
 
 .game__container > .paginator{
-    position: relative;
     margin-top: 0;
     color:black;
     margin-top: 61px;
@@ -211,7 +203,7 @@
 }
 
 .partners-image__item:nth-child(n+5){
-    margin-top: 20px;
+    margin-top: 18px;
 }
 
 .partners-image__item:nth-child(5) > .partners-image__link{
@@ -239,11 +231,11 @@
 }
 
 .footer__game > .footer__container{
-    height: 115px;
+    height: 110px;
 }
 
 .footer__game > .footer__container > .footer__contact{
-    margin-bottom: 30px;
+    margin-bottom: 27px;
 }
 
 .footer__game > .footer__container > .footer__contact > .contacts__phone{
